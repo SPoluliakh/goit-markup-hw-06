@@ -617,6 +617,75 @@ img {
   background-color: var(--activ-color);
 }
 
+/* subscription */
+
+.subscription {
+  margin-left: auto;
+  align-self: flex-start;
+  padding-top: 12px;
+}
+
+.subscription-input {
+  color: var(--header-bcg-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  width: 358px;
+  padding: 15px 16px;
+  background-color: var(--hiro-bcg-color);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.subscription-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  display: inline-flex;
+  align-items: center;
+  margin-left: 12px;
+  padding: 10px 29px;
+
+  color: var(--header-bcg-color);
+  background-color: var(--activ-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-color: transparent;
+  border-width: 1px;
+
+  cursor: pointer;
+  transition: color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscription-btn:hover,
+.subscription-btn:focus {
+  background-color: var(--header-bcg-color);
+  color: var(--activ-color);
+}
+
+.subscription-svg {
+  fill: currentColor;
+  margin-left: 10px;
+}
+
+/* .subscription-input::placeholder[E-mail] {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+} */
+
 /* PORTFOLIO */
 
 .general {
