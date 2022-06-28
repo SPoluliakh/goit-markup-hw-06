@@ -402,7 +402,14 @@
 
         <form class="subscription" name="подписка">
           <em class="act-title">Подпишитесь на рассылку</em>
-          <input type="email" class="subscription-input" name="email" placeholder="E-mail" />
+          <label for="subscription"></label>
+          <input
+            type="email"
+            class="subscription-input"
+            id="subscription"
+            name="email"
+            placeholder="E-mail"
+          />
           <button class="subscription-btn" type="submit">
             Подписаться
             <svg class="subscription-svg" width="24px" height="24px">
@@ -422,6 +429,26 @@
             <use href="./images/sprite.svg#icon-Vector"></use>
           </svg>
         </button>
+        <b>Оставьте свои данные, мы вам перезвоним</b>
+        <form name="order">
+          <label for="name">Имя</label>
+          <input type="text" name="name" id="name" />
+
+          <label for="phone">Телефон</label>
+          <input type="text" name="phone" id="phone" />
+
+          <label for="email">Почта</label>
+          <input type="text" name="email" id="email" />
+
+          <label for="comments">Комментарий</label>
+          <textarea
+            name="comments"
+            id="comments"
+            placeholder="Введите текст"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
